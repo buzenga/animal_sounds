@@ -1,0 +1,139 @@
+html {
+   padding: 0;
+   margin: 0;
+   background-image: linear-gradient(to right, rgba(29, 29, 28, 0.863), rgba(29, 29, 28, 0.863)), url(images/background_earth.jpg);
+   background-size: cover;
+   overflow: hidden;
+   font-family: 'Inspiration', cursive;
+}
+body {
+   padding: 0;
+   margin: 0;
+
+}
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+}
+.header {
+   color: white;
+   text-align: center;
+   margin-top: 2rem;
+   font-size: 3em;
+}
+.flex-container {
+   position: absolute;
+   top: 70%;
+   display: flex;
+   justify-self: center;
+   gap: 3em;
+   
+}
+
+.contribution {
+   position: absolute;
+   bottom: 50px;
+   display: flex;
+   gap: 5px;
+   
+   a {
+      color: white;
+      text-decoration: none;
+      font-size: 5px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+      
+}
+.footer {
+   position: fixed;
+   bottom: 0;
+   font-size: 10px;
+   color: white;
+   background-color: black;
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.animal {
+   padding: 4px;
+   border: 3px solid black;
+   border-radius: .5em;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   font-size: 10px;
+   transition: all .07s ease;
+
+   .label {
+      margin-top: 2px;
+   }
+}
+.playing {
+   padding: 4px;
+   border: 3px solid rgb(39, 180, 39);
+   border-radius: .5em;
+   box-shadow: 0 0 1rem rgb(39, 180, 39);
+   transform: scale(1.1);
+
+}
+
+.chicken {
+   position: absolute;
+   top: 30%;
+   width: 320px;
+   height: 213px;
+   background: url(images/chicken_pic.jpg);
+   background-size: contain;
+   border-radius: 1em;
+}
+.wolf {
+   position: absolute;
+   top: 30%;
+   width: 320px;
+   height: 213px;
+   background: url(images/wolf_pic.jpg);
+   background-size: contain;
+   border-radius: 1em;
+}
+.cow {
+   position: absolute;
+   top: 30%;
+   width: 320px;
+   height: 213px;
+   background: url(images/cow_pic.jpg);
+   background-size: contain;
+   border-radius: 1em;
+}
+.elephant {
+   position: absolute;
+   top: 30%;
+   width: 320px;
+   height: 213px;
+   background: url(images/elephant_pic.jpg);
+   background-size: contain;
+   border-radius: 1em;
+}
+.gorilla {
+   position: absolute;
+   top: 30%;
+   width: 320px;
+   height: 213px;
+   background: url(images/gorilla_pic.jpg);
+   background-size: contain;
+   border-radius: 1em;
+}
+.pig {
+   position: absolute;
+   top: 30%;
+   width: 320px;
+   height: 213px;
+   background: url(images/pig_pic.jpg);
+   background-size: contain;
+   border-radius: 1em;
+}
